@@ -1,0 +1,1 @@
+test = StockPrices[StockPrices['date'] == 'date' ]

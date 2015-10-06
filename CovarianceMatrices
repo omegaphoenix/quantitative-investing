@@ -1,0 +1,36 @@
+import pandas as pd
+import numpy as np
+import ReadData
+import datetime
+
+#Choose the path where the data files are and comment out the other line.
+DataFolder = '/home/Documents/CQA'
+#DataFolder = 'E:\Dropbox\CQA 2014\Data'
+(StockPrices, SP500Prices, CarhartDaily, StockBeta) = ReadData.ReadAll(DataFolder)
+StockReturns = ReadData.ReadReturn(DataFolder)
+tickers = ReadData.ReadTickers(DataFolder)
+
+#Calculates the Four Factor covariance matrix using the Carhart daily values. (F-F_Research_Data_Factors_daily.txt)
+def fourFactorCovarMatrix(startDate, endDate):
+    CarhartDaily.truncate(startDate, endDate)
+    return CarhartDaily.cov()
+
+#Calculates Four Factor covariance matrix using full range of data.
+def fourFactorCovarMatrix():
+    return CarhartDaily.cov()
+
+#Calculates the residual returns covariance matrix.
+#   coef - 4 column data structure with four factor coefficients
+def returnsCovarianceMatrix(coef, startDate, endDate):
+    returnValues = DataFrame(generateReturnValues(coef, startDate, endDate))
+    return returnValues.cov()
+
+#Returns a list of the residual returns for each stock.
+#Take StockPrices at startDate and endDate and find the difference
+def generateReturnValues(coef, startDate, endDate):
+    listOfReturns = []
+    for x in StockPrices:
+        listOfReturns.append(StockPrices.endDate - StockPrices.startDate)
+    return listOfReturns
+
+data = ReadAll()

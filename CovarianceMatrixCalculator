@@ -1,0 +1,58 @@
+import pandas as pd
+import numpy as np
+fourFactors = pd.read_csv('Coef_2010-11-01_2013-10-31.csv')
+#residualReturns = pd.read_csv('StockReturns.csv')
+fourFactors.columns = ['alphaFF', 'Mkt', 'SMB', 'HML', 'UMD', 'alphaCAPM', 'Mkt-RF_only', 'alphaSP500', 'SP500-RF', 'ticker']
+# Dataframe to store Four Factor Covariance Matrix
+returnFactor = fourFactors.Mkt
+smbFactor = fourFactors.SMB
+hmlFactor = fourFactors.HML
+umdFactor = fourFactors.UMD
+fourFactorExclusive = pd.DataFrame({'Mkt' : returnFactor,
+                                 'SMB' : smbFactor,
+                                 'HML' : hmlFactor,
+                                 'UMD' : umdFactor})
+def calculateAverage(data):
+    sum = 0
+    n = 0
+    for x in data:
+        n = n + 1
+        sum = sum + x
+    return sum/n
+
+def calculateVariance(data):
+    average = calculateAverage(data)
+    n = 0
+    sumSqr = 0
+    for x in data:
+        n = n + 1
+        sumSqr = sumSqr + x*x
+    variance = (sumSqr - (average*average*n))/(n - 1)
+    return variance
+
+def calculateCovariance(data1, data2):
+    average1 = calculateAverage(data1)
+    average2 = calculateAverage(data2)
+    covariance = 0
+    i = 0
+    for x in data1:
+        j = 0
+        for y in data2:
+            if i == j:
+                covariance = covariance + (x - average1)*(y - average2)
+            j = j + 1
+        i = i + 1
+    return covariance
+
+def calculateStdDev(data):
+    stdDev = calculateVariance(data) ** (0.5)
+    return stdDev
+
+def varCovarMatrix(data):
+    cov_data = data.cov()
+    return cov_data
+
+fourFactorCovariance = varCovarMatrix(fourFactorExclusive)
+fourFactorCovariance
+#residualReturnsCovariance = varCovarMatrix(residualReturns)
+#residualReturnsCovar
