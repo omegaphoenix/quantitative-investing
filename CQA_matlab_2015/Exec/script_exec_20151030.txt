@@ -1,0 +1,5678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://stocktrak.com/" />
+<title>script1</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">script1</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/private/trading/equities.aspx</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>WSM</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2700</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>PSA</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>900</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>PNRA</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>1100</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>GWW</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>URBN</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>7000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>LULU</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>4100</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>GPS</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>7300</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>UPS</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>1900</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>SEIC</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3900</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>FL</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>PII</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>1800</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>BBBY</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3400</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>DLTR</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3100</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>HRB</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>5400</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>CVS</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>FOSL</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3700</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>NATI</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>6600</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>EXPD</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>4000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>SIAL</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>1400</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>TUP</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3400</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>NKE</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>1500</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>CMG</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>300</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>LSTR</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3200</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>ALXN</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>TPX</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2600</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>SHW</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>700</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>MORN</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2400</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>DKS</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>4500</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>ULTA</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>1100</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>RL</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>1800</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>MSM</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>500</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>LGF</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>5100</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>JNJ</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>WFM</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>6700</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>GPK</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>14100</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>DSW</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>8000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>MJN</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2400</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>DDS</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2200</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>SKX</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>6400</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>NVR</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>100</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>WMT</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3500</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>CRI</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2200</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>CL</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>VAR</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2500</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>VFC</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>DG</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>HSY</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2300</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>UA</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2100</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>DRI</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3200</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>THO</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3700</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Buy</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>HLF</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3600</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>KMT</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>7100</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>MDU</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>10600</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>MET</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>4000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>GE</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>6900</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>TSCO</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2200</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>C</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3800</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>CLR</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>5900</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>URI</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2700</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>TE</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>7400</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>X</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>17100</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>EMN</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2800</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>NFLX</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>1800</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>CPN</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>12900</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>SIVB</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>1600</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>F</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>13500</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>NCR</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>7500</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>AMG</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>1100</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>SCHW</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>6600</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>ETFC</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>7000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>CSGP</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>TRN</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>7400</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>CCK</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3800</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>SPWR</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>7500</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>NRG</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>15500</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>MGM</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>8600</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>OKE</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>5900</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>WYNN</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2900</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>WMB</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>5100</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>IVZ</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>6000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>ZBRA</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2600</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>LNG</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>4000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>STLD</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>10800</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>ESV</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>12000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>KBR</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>10800</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>KLAC</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>TKR</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>6300</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>LVLT</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3900</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>ALB</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3700</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>HRS</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2500</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>GME</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>4300</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>FCX</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>17000</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>PWR</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>9900</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>VRTX</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>1600</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>GLNG</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>6900</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>WLL</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>11600</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>AKRX</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>7500</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>TXN</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>3500</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>PACW</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>4400</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>ALNY</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2300</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+<tr>
+    <td>select</td>
+    <td>id=ContentPlaceHolder1_Equities_ddlOrderSides</td>
+    <td>label=Short</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbSymbol</td>
+	<td>TROW</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=ContentPlaceHolder1_Equities_tbQuantity</td>
+	<td>2600</td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPreviewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnPlaceOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>5000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=ContentPlaceHolder1_Equities_btnNewOrder</td>
+	<td></td>
+</tr>
+<tr>
+	<td>pause</td>
+	<td>500</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

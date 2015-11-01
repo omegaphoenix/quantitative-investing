@@ -1,0 +1,3 @@
+download_yahoo_data()  %  to download the data
+calc_universe()        %  calculate return 
+test_20151030()        %  portfolio
