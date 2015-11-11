@@ -1,5 +1,5 @@
 function download_yahoo_data()
-addpath ../dailyDataSuite
+addpath dailyDataSuite
 fid=fopen('r3000');
 C=textscan(fid,'%s');
 fclose(fid);
